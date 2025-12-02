@@ -1,2 +1,28 @@
 **/node_modules/
 
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+*.env.local
+
+# Build
+dist/
+build/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+volumes/
+
